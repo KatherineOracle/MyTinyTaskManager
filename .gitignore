@@ -1,4 +1,5 @@
 
-
+# Ignore .env files
+live.env
 # dependencies
 node_modules
