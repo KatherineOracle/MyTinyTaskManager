@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 3em;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: white;
+  padding: 0.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main {
+  padding: 2em;
+  min-height: 80vh;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 0.5rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+.tableHeader{
+  background: #ebebeb;
+ 
+}
+
+.toolbar{
+  background: #ebebeb;
+  border: 1px solid #cccccc
+}
+
+.toolbar > .col:not(:first-child){border-left:  1px solid #cccccc}
+
+.container{
+
+  margin-bottom: 2rem;
+}
